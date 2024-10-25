@@ -2,7 +2,7 @@
 
 This repository explores various ways to trigger AWS Lambda functions and how to utilize variables passed to them.
 
-## Event Sources
+## Event Sources 
 
 1. **Amazon SNS**: Triggers Lambda on message publication. Access the message via the event object.
 2. **Amazon SQS**: Invokes Lambda on message arrival in the queue. Extract message attributes from the event object.
