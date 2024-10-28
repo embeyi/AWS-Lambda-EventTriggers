@@ -1,7 +1,7 @@
 # AWS Lambda Event Triggers 
 
 This repository explores various ways to trigger AWS Lambda functions and how to utilize variables passed to them.
-
+ 
 ## Event Sources 
 
 1. **Amazon SNS**: Triggers Lambda on message publication. Access the message via the event object.
