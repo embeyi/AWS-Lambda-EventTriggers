@@ -10,7 +10,7 @@ def lambda_handler(event, context):
         sns_subject = record['Sns']['Subject']
         sns_timestamp = record['Sns']['Timestamp']
         
-        # Print SNS message details
+        # Print SNS message details 
         print(f"SNS Message: {sns_message}")
         print(f"SNS Subject: {sns_subject}")
         print(f"SNS Timestamp: {sns_timestamp}")
