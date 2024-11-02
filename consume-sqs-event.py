@@ -4,7 +4,7 @@ def lambda_handler(event, context):
     print(' Hi SQS Triggerred me')
     # Loop through each record in the event
     for record in event['Records']:
-        # Extract the body of the SQS message
+        # Extract the body of the SQS message 
         message_body = record['body']
         
         # Print the entire message body
