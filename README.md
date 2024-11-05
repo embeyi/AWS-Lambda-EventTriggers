@@ -12,7 +12,7 @@ This repository explores various ways to trigger AWS Lambda functions and how to
 6. **CloudWatch Events**: Invokes Lambda on scheduled or resource change events. Utilize the detail field from the event.
 
 ## Using Variables in Lambda
-
+ 
 When triggered, AWS passes an event object to the Lambda function. Access properties as needed:
 
 ```python
