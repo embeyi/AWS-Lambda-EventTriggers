@@ -1,4 +1,4 @@
-# AWS Lambda Event Triggers
+# AWS Lambda Event Triggers 
 
 This repository explores various ways to trigger AWS Lambda functions and how to utilize variables passed to them.
  
